@@ -1,3 +1,6 @@
+mkdir subs
+cd subs
+
 # q1
 touch File{A,B,C,D,E,F}.txt
 
@@ -11,13 +14,13 @@ mv FileA.txt FileA.old
 rm *
 
 # q5
-mkdir subs && cp ls /etc | grep "\.conf$" subs
+cp /etc/*.conf .
 
 # q6
-cat /subs/l*
+cat l*
 
 # q7
-grep -l user subs/????.conf
+grep -l user ????.conf
 
 # q8a
 ls -t | head -n 1
